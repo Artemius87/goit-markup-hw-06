@@ -586,8 +586,7 @@ ul {
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: #757575;
-  text-align: center;
+  padding-bottom: 5px;
 }
 
 .modal-form .button-close {
@@ -623,4 +622,16 @@ textarea {
 }
 textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
+}
+.label-policy .link {
+  color: var(--accent-color);
+}
+.modal-form .title {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
