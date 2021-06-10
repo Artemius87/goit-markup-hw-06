@@ -305,6 +305,29 @@ ul {
   background-color: var(--white-color);
 }
 
+.button-subscribe {
+  padding: 10px 62px 10px 29px;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  border: none;
+  text-align: center;
+  line-height: 1.87;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+}
+
+.ntnfly {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  transform: translate(520px, 12px);
+}
+
 /* Стили для portfolio.html */
 
 .portfolio {
