@@ -375,11 +375,11 @@ info@devstudio.com
         <form class="join-to" >
           <label for="mail" class="form-label"></label>
           <input class="form-input" type="email" name="mail" id="mail" placeholder=E-mail>
-          <button class="button-subscribe" type="submit">Подписаться</button>
-
-          <svg class="ntnfly">
+          <button class="button-subscribe" type="submit">Подписаться
+          <svg class="btnfly">
     <use href="./images/defs.svg#icon-flyW"></use>
     </svg>
+    </button>
         </form>        
          </div>
     </div>
@@ -392,17 +392,41 @@ info@devstudio.com
 
     <h3 class="title">Оставьте свои данные, мы вам перезвоним</h3>
     
-    <label for="name">Имя</label>
-    <input type="text" name="name" id="name">
+    <label class="label">
+      Имя
+    <input class="input" type="text" name="name">
+    <span class="icon">
+      <svg width="16" height="16">
+        <use href="./images/defs.svg#icon-profileB"></use>
+      </svg>
+    </span>
+  </label>
+   
     
-    <label for="tel">Телефон</label>
-    <input type="tel" name="tel" id="tel">
     
-    <label for="mail">Почта</label>
-    <input type="email" name="mail" id="mail">
+    <label class="label">
+      Телефон
+    <input class="input" type="tel" name="tel">
+    <span class="icon">
+      <svg width="16" height="16">
+        <use href="./images/defs.svg#icon-phoneB"></use>
+      </svg>
+    </span>
+    </label>
+    
+    <label class="label">
+      Почта
+    <input class="input" type="email" name="mail">
+    <span class="icon">
+      <svg width="16" height="16">
+        <use href="./images/defs.svg#icon-mailB"></use>
+      </svg>
+    </span>
+</label>
 
-    <label for="comment">Комментарий</label>
-    <textarea name="comment" id="comment" rows="8"placeholder="Введите текст"></textarea>
+    <label class="label" for="comment">Комментарий</label>
+    <textarea name="comment" rows="8"placeholder="Введите текст"></textarea>
+    
 <div class="checkbox-modal">
   <input type="checkbox" name="policy" id="policy">
 <label class="label-policy" for="policy">Соглашаюсь с рассылкой и принимаю <a class="link" href="">Условия договора</a></label>
