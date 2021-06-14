@@ -467,7 +467,7 @@ ul {
 }
 /*-----------overlay---- */
 
-.overlay {
+.modal .overlay {
   position: relative;
   overflow: hidden;
 }
@@ -515,6 +515,13 @@ ul {
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal .close:focus .close-black {
+  fill: var(--accent-color);
 }
 
 .backdrop {
@@ -729,12 +736,11 @@ textarea::placeholder {
   background-size: contain;
   border: 2px solid var(--accent-color)
   background-origin: border-box;
-
   background-image: url("../images/icon-check.svg");
 }
 
 .checkrow{
   display: flex;
   align-items: baseline;
-  justify-content: space-evenly
+  justify-content: space-evenly;
 }
